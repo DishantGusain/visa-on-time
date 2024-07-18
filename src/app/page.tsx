@@ -1,3 +1,4 @@
+import AboutUs from "@/Components/AboutUs";
 import FAQ from "@/Components/FAQ";
 import Hero from "@/Components/Hero";
 import Navbar from "@/Components/Navbar";
@@ -12,22 +13,22 @@ export default function Home() {
 
 
       <div>
-        <h1 className="mb-3 font-semibold text-2xl text-center">What's the procedure</h1>
+        <h1 className="mb-3 font-bold text-2xl text-center">What&apos;s the procedure</h1>
 
-        <div className="flex justify-between items-start text-sm">
+        <div className="md:flex justify-between items-start text-sm">
 
-          <div className="pr-3 w-1/3">
-            <h2 className="flex items-center my-2 font-semibold"> <span className="text-green-500"><IoCheckmarkCircle /></span> Details and documents gathering</h2>
+          <div className="my-4 md:my-0 md:pr-3 md:w-1/3">
+            <h2 className="flex items-center my-2 font-semibold"> <span className="pr-1 text-green-500 text-lg"><IoCheckmarkCircle /></span> Details and documents gathering</h2>
             <p className="">Our experienced executive will gather all your details and documents required to apply for US Visa.</p>
           </div>
 
-          <div className="px-6 w-1/3">
-            <h2 className="flex items-center my-2 font-semibold"> <span className="text-green-500"><IoCheckmarkCircle /></span> DS 160 Form Filling & US Visa Fee payment</h2>
+          <div className="my-4 md:my-0 md:px-6 md:w-1/3">
+            <h2 className="flex items-center my-2 font-semibold"> <span className="pr-1 text-green-500 text-lg"><IoCheckmarkCircle /></span> DS 160 Form Filling & US Visa Fee payment</h2>
             <p className="">Our executive will fill the DS 160 form for US Visa application on your behalf. </p>
           </div>
 
-          <div className="pl-3 w-1/3">
-            <h2 className="flex items-center my-2 font-semibold"> <span className="text-green-500"><IoCheckmarkCircle /></span> Booking the earliest appointment slot</h2>
+          <div className="my-4 md:my-0 md:pl-3 md:w-1/3">
+            <h2 className="flex items-center my-2 font-semibold"> <span className="pr-1 text-green-500 text-lg"><IoCheckmarkCircle /></span> Booking the earliest appointment slot</h2>
             <p className="">Our team of Visa Experts sit through out the day to spot any new or cancelled vacancies and provide you with the earliest appointment schedule</p>
           </div>
 
@@ -39,7 +40,7 @@ export default function Home() {
 
 
 
-
+<AboutUs/>
 
 
 

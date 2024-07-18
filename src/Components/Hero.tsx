@@ -64,14 +64,18 @@ export default function Hero() {
                         </div>
 
 
-                        <div className="bg-[#EB560D] py-4 rounded-md font-bold text-base text-center text-white">
-                            <a href="/">Apply US Visa</a>
+                        <div className="font-bold text-base text-center text-white">
+                            <a href="/" className="w-full">
+                            <div className="bg-[#EB560D] py-4 rounded-md">
+                            Apply US Visa
+                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
 
 
-                <div className="md:px-12 md:w-1/2">
+                <div className="md:px-12 pt-10 md:pt-0 md:w-1/2">
                     <div className="relative shadow-2xl rounded-3xl w-full">
                         <img
                             src="/hero.avif"
