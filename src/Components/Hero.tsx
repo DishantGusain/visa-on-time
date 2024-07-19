@@ -66,9 +66,9 @@ export default function Hero() {
 
                         <div className="font-bold text-base text-center text-white">
                             <a href="/" className="w-full">
-                            <div className="bg-[#EB560D] py-4 rounded-md">
-                            Apply US Visa
-                            </div>
+                                <div className="bg-[#EB560D] py-4 rounded-md">
+                                    Apply US Visa
+                                </div>
                             </a>
                         </div>
                     </div>

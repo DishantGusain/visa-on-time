@@ -6,7 +6,7 @@ export default function Navbar() {
 
 
         <div className="md:flex items-center space-x-4 hidden">
-          
+
 
             <a href="/" className="hover:text-[#0088ff] hover:underline">About Us</a>
             <a href="/" className="hover:text-[#0088ff] underline">Procedure</a>
@@ -16,9 +16,9 @@ export default function Navbar() {
         </div>
 
         <div className="md:hidden text-3xl">
-        <CgMenuRight />
+            <CgMenuRight />
         </div>
 
-    
+
     </div>;
 }

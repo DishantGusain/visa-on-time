@@ -1,7 +1,9 @@
 import AboutUs from "@/Components/AboutUs";
 import FAQ from "@/Components/FAQ";
+import Footer from "@/Components/Footer";
 import Hero from "@/Components/Hero";
 import Navbar from "@/Components/Navbar";
+import Testimonials from "@/Components/Testimonials";
 import { IoCheckmarkCircle } from "react-icons/io5";
 
 export default function Home() {
@@ -11,9 +13,8 @@ export default function Home() {
       <Navbar />
       <Hero />
 
-
       <div>
-        <h1 className="mb-3 font-bold text-2xl text-center">What&apos;s the procedure</h1>
+        <h1 className="mb-3 font-bold text-[22px] text-center">What&apos;s the procedure</h1>
 
         <div className="md:flex justify-between items-start text-sm">
 
@@ -35,30 +36,23 @@ export default function Home() {
         </div>
       </div>
 
+      <FAQ />
 
-<FAQ/>
+      <AboutUs />
 
+      <Testimonials />
 
-
-<AboutUs/>
-
-
-
+      <Footer />
 
 
 
 
 
-
-
-      <div className="flex flex-col justify-center items-center md:p-24 min-h-screen">
+      {/* <div className="flex flex-col justify-center items-center md:p-24 min-h-screen">
 
         <h1 className="font-semibold text-3xl text-center md:text-5xl">Under Development</h1>
 
-
-      </div>
-
-
+      </div> */}
 
 
 
