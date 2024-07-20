@@ -79,7 +79,7 @@ export default function Hero() {
                     <div className="relative shadow-2xl rounded-3xl w-full">
                         <img
                             src="/hero.avif"
-                            alt="Freelance Developer Icon Art"
+                            alt="Visa On Time Hero"
                             className="object-contain"
                         />
                     </div>

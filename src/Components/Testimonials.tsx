@@ -1,5 +1,5 @@
 export default function Testimonials() {
-    return <section className="relative py-10 md:py-16">
+    return <section className="relative px-2 md:px-0 py-10 md:py-16">
 
 
 

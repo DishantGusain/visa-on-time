@@ -2,7 +2,7 @@ import { CgMenuRight } from "react-icons/cg";
 export default function Navbar() {
     return <div className="flex justify-between items-center pt-6 text-lg">
 
-        <div className="w-40"><img src="/logo.avif" /></div>
+        <div className="w-40"><img src="/logo.avif" alt="Visa On Time Logo" /></div>
 
 
         <div className="md:flex items-center space-x-4 hidden">
