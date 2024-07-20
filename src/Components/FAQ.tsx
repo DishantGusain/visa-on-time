@@ -3,8 +3,8 @@ import React from "react";
 export default function FAQ() {
   return (
 
-    <section className="relative px-2 md:px-6 py-10 md:py-16 font-semibold">
-      <h1 className="mb-3 font-bold text-[22px] text-center">FAQs</h1>
+    <section id="FAQ" className="relative my-10 md:my-20 font-semibold">
+      <h1 className="mb-6 font-bold text-center text-xl md:text-2xl">Frequently Asked Questions</h1>
 
 
       <div className="rounded-2xl divide-y faq-content">

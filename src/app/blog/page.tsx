@@ -1,5 +1,78 @@
-export default function Footer() {
-    return (
+
+import { CgMenuRight } from "react-icons/cg";
+export default function blog() {
+
+
+
+
+    return <div className="mx-auto px-4 md:w-[1000px] 2xl:w-[1300px] font-primary">
+        <div className="flex justify-between items-center mx-auto pt-6 font-primary text-lg">
+
+            <div className="w-48"><a href="/" className=""> <img src="/logo.avif" alt="Visa On Time Logo" /></a></div>
+
+
+            <div className="md:flex items-center space-x-4 hidden">
+
+
+                <a href="/" className="hover:text-[#0088ff] hover:underline">About Us</a>
+                <a href="/" className="hover:text-[#0088ff] underline">Procedure</a>
+                <a href="/" className="hover:text-[#0088ff] hover:underline">FAQs</a>
+
+
+            </div>
+
+            <div className="md:hidden text-3xl">
+                <CgMenuRight />
+            </div>
+
+
+        </div>
+
+
+
+
+        <div className="min-h-screen">
+
+
+            <h1 className="my-10 md:my-20 mb-6 font-bold text-2xl text-center md:text-6xl">Blogs</h1>
+
+            <div className="flex items-center w-full">
+
+                <div className="w-2/12">
+                    <img className="rounded-3xl" src="/blogs/1.avif" />
+                </div>
+
+
+                <div className="pl-8 w-10/12">
+
+                    <h1 className="mb-3 font-semibold text-2xl md:text-3xl">
+                        US Visa Application Process for Indian Travelers: A Step-by-Step Guide
+                    </h1>
+
+
+                    <p className="">
+                        Feb 2, 2024
+                    </p>
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
         <section className="mx-auto mt-10 md:mt-20 px-4 pt-6 md:w-[1000px] 2xl:w-[1300px] font-primary">
             <div className="md:flex justify-between items-start">
                 <div className="flex justify-center items-center my-10 md:my-0 text-center md:text-left">
@@ -70,5 +143,8 @@ export default function Footer() {
 
 
         </section>
-    );
+
+
+
+    </div>;
 }

@@ -1,21 +1,21 @@
 export default function Testimonials() {
-    return <section className="relative px-2 md:px-0 py-10 md:py-16">
+    return <section className="relative my-10 md:my-20 px-2 md:px-0">
 
 
 
-        <h1 className="mb-5 font-bold text-[22px] text-center">Satisfied Clients</h1>
+        <h1 className="mb-6 font-bold text-center text-xl md:text-2xl">Our Customer Stories</h1>
 
 
         <div className="md:flex justify-center items-center">
 
 
-            <div className="bg-white shadow-gray-300 shadow-xl md:shadow-2xl p-8 rounded-2xl md:w-80 ring-2 ring-slate-100">
+            <div className="bg-white shadow-gray-300 shadow-xl md:shadow-2xl p-8 rounded-2xl ring-2 ring-slate-100">
                 <div className="flex items-center gap-4 mb-6">
 
                     <img src="/Testimonials/vinaymehta.avif" alt="Vinay Mehta" width="20%" className="rounded-full" />
 
                     <div className="gap-1 grid">
-                        <h1 className="font-semibold text-gray-900 text-xl">Vinay Mehta</h1>
+                        <h1 className="font-semibold text-[#141B52] text-base md:text-xl">Vinay Mehta</h1>
                         <span className="font-medium text-gray-500 text-sm">B.Tect (Mechanical) </span>
                     </div>
                 </div>
@@ -26,13 +26,13 @@ export default function Testimonials() {
 
 
 
-            <div className="bg-white shadow-gray-300 shadow-xl md:shadow-2xl md:mx-5 my-5 md:my-0 p-8 rounded-2xl md:w-80 ring-2 ring-slate-100">
+            <div className="bg-white shadow-gray-300 shadow-xl md:shadow-2xl md:mx-8 my-5 md:my-0 p-8 rounded-2xl ring-2 ring-slate-100">
                 <div className="flex items-center gap-4 mb-6">
 
                     <img src="/Testimonials/akashmulani.avif" alt="Akash Mulani" width="20%" className="rounded-full" />
 
                     <div className="gap-1 grid">
-                        <h1 className="font-semibold text-gray-900 text-xl">Akash Mulani</h1>
+                        <h1 className="font-semibold text-[#141B52] text-base md:text-xl">Akash Mulani</h1>
                         <span className="font-medium text-gray-500 text-sm">H.S.C Passed</span>
                     </div>
                 </div>
@@ -41,13 +41,13 @@ export default function Testimonials() {
             </div>
 
 
-            <div className="bg-white shadow-gray-300 shadow-xl md:shadow-2xl p-8 rounded-2xl md:w-80 ring-2 ring-slate-100">
+            <div className="bg-white shadow-gray-300 shadow-xl md:shadow-2xl p-8 rounded-2xl ring-2 ring-slate-100">
                 <div className="flex items-center gap-4 mb-6">
 
                     <img src="/Testimonials/ajeetsingh.avif" alt="Ajeet Singh" width="20%" className="rounded-full" />
 
                     <div className="gap-1 grid">
-                        <h1 className="font-semibold text-gray-900 text-xl">Ajeet Singh</h1>
+                        <h1 className="font-semibold text-[#141B52] text-base md:text-xl">Ajeet Singh</h1>
                         <span className="font-medium text-gray-500 text-sm">Job @ Infosys</span>
                     </div>
                 </div>
