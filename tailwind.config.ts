@@ -16,6 +16,10 @@ const config: Config = {
       fontFamily: {
         primary: ["Montserrat"],
       },
+      colors: {
+        textprimary: "#141B52",
+        textsecondary: "#EB560D",
+      },
     },
   },
   plugins: [],

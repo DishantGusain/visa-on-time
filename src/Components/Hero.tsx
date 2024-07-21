@@ -68,21 +68,17 @@ export default function Hero() {
 
 
                         <div className="shadow shadow-orange-500 hover:shadow-[#141B52] rounded-lg font-semibold text-center text-lg text-white group">
-                            <a href="/" className="w-full">
-                                {/* <div className="bg-[#141B52] py-3 rounded-md">
-                                    Apply US Visa
-                                </div> */}
 
-                                <div className="group-hover:bg-[#141B52] flex justify-center items-center bg-[#EB560D] py-3 rounded-lg transition duration-300">
+
+                            <a href="/next" className="group-hover:bg-[#141B52] flex justify-center items-center bg-[#EB560D] py-3 rounded-lg transition duration-300">
                                     Apply US Visa
                                     <span className="ml-2 text-xl">
                                         <GiCommercialAirplane />
                                     </span>
-                                </div>
-
-
-
                             </a>
+
+
+
                         </div>
                     </div>
                 </div>
