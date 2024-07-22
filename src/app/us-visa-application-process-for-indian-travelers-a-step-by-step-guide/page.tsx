@@ -3,31 +3,10 @@ import { CgMenuRight } from "react-icons/cg";
 export default function BlogPage() {
     return <div className="mx-auto px-4 md:w-[1000px] 2xl:w-[1300px] font-primary">
 
-        <div className="flex justify-between items-center mx-auto pt-6 font-primary text-lg">
-
-            <div className="w-48"><a href="/" className=""> <img src="/logo.avif" className="" alt="Visa On Time Logo" /></a></div>
 
 
-            <div className="md:flex items-center space-x-4 hidden">
-
-
-                <a href="/" className="hover:text-[#0088ff] hover:underline">About Us</a>
-                <a href="/" className="hover:text-[#0088ff] underline">Procedure</a>
-                <a href="/" className="hover:text-[#0088ff] hover:underline">FAQs</a>
-
-
-            </div>
-
-            <div className="md:hidden text-3xl">
-                <CgMenuRight />
-            </div>
-
-
-        </div>
-
-
-        <div className=" mt-20 mb-10 md:mt-20 md:mb-20 text-lg">
-            <h1 className="my-6 font-bold text-3xl md:text-6xl text-center ">US Visa Application Process for Indian Travelers: A Step-by-Step Guide</h1>
+        <div className="mt-20 md:mt-20 mb-10 md:mb-20 text-lg">
+            <h1 className="my-6 font-bold text-3xl text-center md:text-6xl">US Visa Application Process for Indian Travelers: A Step-by-Step Guide</h1>
 
             <p className="my-6 text-center leading-8">Feb 2,2024</p>
 
@@ -61,7 +40,7 @@ export default function BlogPage() {
 
             <p className="leading-8">Embarking on your journey to the United States is an exciting endeavor, and understanding the visa application process is the first step towards making it a reality. Follow our step-by-step guide, and you&apos;ll be well-prepared to navigate the intricacies of obtaining your US visa.</p>
 
-            <p className="leading-8 mt-3">Remember, each applicant&apos;s situation is unique, so consult with the official guidelines and seek professional advice if needed. Safe travels!</p>
+            <p className="mt-3 leading-8">Remember, each applicant&apos;s situation is unique, so consult with the official guidelines and seek professional advice if needed. Safe travels!</p>
 
         </div>
 
@@ -69,92 +48,17 @@ export default function BlogPage() {
 
 
 
-        <div className="flex items-center justify-center">
-            <h1 className="text-3xl font-bold">
+        <div className="flex justify-center items-center">
+            <h1 className="font-bold text-3xl">
 
                 Get your <span className="text-textsecondary"> US Travel Visa</span> in just 45 Days!
             </h1>
-            <a href="/" className=" flex justify-center items-center w-[250px] bg-[#EB560D] ml-4 py-3 shadow shadow-orange-500  rounded-lg font-semibold text-center text-lg text-white ">
+            <a href="/" className="flex justify-center items-center bg-[#EB560D] shadow shadow-orange-500 ml-4 py-3 rounded-lg w-[250px] font-semibold text-center text-lg text-white">
                 Apply Now
             </a>
 
 
         </div>
-
-
-
-
-
-        <section className="mx-auto mt-10 md:mt-20 px-4 pt-6 md:w-[1000px] 2xl:w-[1300px] font-primary">
-            <div className="md:flex justify-between items-start">
-                <div className="flex justify-center items-center my-10 md:my-0 text-center md:text-left">
-                    <div className="space-y-2 text-sm">
-                        <div className="flex justify-center md:justify-start">
-                            <a href="/" className=""> <img src="/logo.avif" alt="Visa On Time Logo" className="w-48" /></a>
-                        </div>
-                        <h1 className="font-semibold">Get your Visas always on time!</h1>
-                        <h1 className="">hello@visaontime.co</h1>
-                    </div>
-                </div>
-                <div className="flex justify-between font-semibold text-sm">
-                    <div className="space-y-2 md:pr-16">
-                        <p className="hover:text-[#0088ff] hover:underline">
-                            <a href="#FAQ">Documents Required</a>
-                        </p>
-
-                        <p className="hover:text-[#0088ff] hover:underline">
-                            <a href="#Procedure">Procedure</a>
-                        </p>
-
-                        <p className="hover:text-[#0088ff] hover:underline">
-
-                            <a href="#FAQ">FAQs</a>
-                        </p>
-
-                        <p className="hover:text-[#0088ff] hover:underline">
-
-                            <a href="#AboutUs">About Us</a>
-                        </p>
-                    </div>
-
-                    <div className="space-y-2">
-
-                        <p className="hover:text-[#0088ff] hover:underline">
-                            <a href="/terms-conditions">Terms and Conditions</a>
-                        </p>
-
-                        <p className="hover:text-[#0088ff] hover:underline">
-
-                            <a href="/privacy">Privacy Policy</a>
-                        </p>
-
-                        <p className="hover:text-[#0088ff] hover:underline">
-
-                            <a href="/blog">Blogs</a>
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-
-
-            <div className="flex justify-center items-center pt-5">
-
-                <div className="">
-                    <div className="flex justify-center items-center">
-                        <img className="h-7" src="/Socials/instagram.avif" alt="Visa On Time Instagram" />
-                        <img className="mx-5 h-7" src="/Socials/facebook.avif" alt="Visa On Time Facebook" />
-                        <img className="h-7" src="/Socials/twitter.avif" alt="Visa On Time Twitter" />
-                    </div>
-
-                    <p className="py-4 text-xs">Copyright © 2023, VisaOnTime by Axon Consultancy</p>
-                </div>
-
-            </div>
-
-
-
-        </section>
 
 
 

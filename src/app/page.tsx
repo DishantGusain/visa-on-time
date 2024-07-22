@@ -10,7 +10,7 @@ export default function Home() {
   return (
 
     <main className="mx-auto px-4 md:w-[1000px] 2xl:w-[1300px] font-primary">
-      <Navbar />
+
       <Hero />
 
       <section id="Procedure" className="my-10 md:my-20">
@@ -41,8 +41,6 @@ export default function Home() {
       <AboutUs />
 
       <Testimonials />
-
-      <Footer />
 
 
 

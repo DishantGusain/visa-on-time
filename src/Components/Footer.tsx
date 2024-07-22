@@ -14,21 +14,21 @@ export default function Footer() {
                 <div className="flex justify-between font-semibold text-sm">
                     <div className="space-y-2 md:pr-16">
                         <p className="hover:text-[#0088ff] hover:underline">
-                            <a href="#FAQ">Documents Required</a>
+                            <a href="/#FAQ">Documents Required</a>
                         </p>
 
                         <p className="hover:text-[#0088ff] hover:underline">
-                            <a href="#Procedure">Procedure</a>
-                        </p>
-
-                        <p className="hover:text-[#0088ff] hover:underline">
-
-                            <a href="#FAQ">FAQs</a>
+                            <a href="/#Procedure">Procedure</a>
                         </p>
 
                         <p className="hover:text-[#0088ff] hover:underline">
 
-                            <a href="#AboutUs">About Us</a>
+                            <a href="/#FAQ">FAQs</a>
+                        </p>
+
+                        <p className="hover:text-[#0088ff] hover:underline">
+
+                            <a href="/#AboutUs">About Us</a>
                         </p>
                     </div>
 
