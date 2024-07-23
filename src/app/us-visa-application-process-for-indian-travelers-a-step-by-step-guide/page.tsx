@@ -48,16 +48,17 @@ export default function BlogPage() {
 
 
 
-        <div className="flex justify-center items-center">
-            <h1 className="font-bold text-3xl">
+        <div className="md:flex justify-center items-center">
+            <h1 className="font-bold text-3xl text-center">
 
                 Get your <span className="text-textsecondary"> US Travel Visa</span> in just 45 Days!
             </h1>
+            <div className="flex justify-center items-center">
             <a href="/" className="flex justify-center items-center bg-[#EB560D] shadow shadow-orange-500 ml-4 py-3 rounded-lg w-[250px] font-semibold text-center text-lg text-white">
                 Apply Now
             </a>
 
-
+            </div>
         </div>
 
 
