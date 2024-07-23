@@ -5,7 +5,7 @@ export default function termsConditions() {
 
 
 
-    return <div className="mx-auto px-4 md:w-[1000px] 2xl:w-[1300px] font-primary">
+    return <div className="mx-auto px-4 md:w-[1000px] 2xl:w-[1300px]">
 
 
         <h1 className="my-10 md:my-20 mb-6 font-semibold text-2xl text-center md:text-3xl">Terms & Conditions</h1>

@@ -13,7 +13,7 @@ export default function Navbar() {
     let [open_nav, setOpenNav] = useState(false);
 
     return <div className="">
-        <div className="flex justify-between items-center mx-auto pt-6  px-4  md:w-[1000px] 2xl:w-[1300px] font-primary font-medium text-xl">
+        <div className="flex justify-between items-center mx-auto pt-6  px-4  md:w-[1000px] 2xl:w-[1300px]   font-medium text-xl">
 
             <div className="w-48"><a href="/" className=""> <img src="/logo.avif" alt="Visa On Time Logo" /></a></div>
 
@@ -46,21 +46,21 @@ export default function Navbar() {
         {open_nav === true ? (
             <div className="  md:hidden pt-6 w-full">
                 <div className="my-4 ml-6 ">
-                    <a className="pb-1 font-medium text-lg hover:text-[#0088ff] transition duration-300 cursor-pointer" href="/#AboutUs" >
+                    <a onClick={() => setOpenNav(!open_nav)} className="pb-1 font-medium text-lg hover:text-[#0088ff] transition duration-300 cursor-pointer" href="/#AboutUs" >
                         About Us
 
                     </a>
                 </div>
 
                 <div className="my-4  ml-6 ">
-                    <a className="pb-1 font-medium text-lg hover:text-[#0088ff] transition duration-300 cursor-pointer" href="/#Procedure" >
+                    <a onClick={() => setOpenNav(!open_nav)} className="pb-1 font-medium text-lg hover:text-[#0088ff] transition duration-300 cursor-pointer" href="/#Procedure" >
                         Procedure
 
                     </a>
                 </div>
 
                 <div className="my-4  ml-6 ">
-                    <a href="/#FAQ" className="pb-1  font-medium text-lg hover:text-[#0088ff] transition duration-300 cursor-pointer" >
+                    <a onClick={() => setOpenNav(!open_nav)} href="/#FAQ" className="pb-1  font-medium text-lg hover:text-[#0088ff] transition duration-300 cursor-pointer" >
                         FAQs
 
                     </a>

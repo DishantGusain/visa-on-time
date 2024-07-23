@@ -1,7 +1,7 @@
 
 import { CgMenuRight } from "react-icons/cg";
 export default function BlogPage() {
-    return <div className="mx-auto px-4 md:w-[1000px] 2xl:w-[1300px] font-primary">
+    return <div className="mx-auto px-4 md:w-[1000px] 2xl:w-[1300px]">
 
 
 
@@ -11,7 +11,7 @@ export default function BlogPage() {
             <p className="my-6 text-center leading-8">Feb 2,2024</p>
 
             <div className="flex justify-center items-center my-6">
-                <img src="/blogs/1.avif" className="rounded-xl" alt="US Visa Application Process for Indian Travelers: A Step-by-Step Guide" />
+                <img src="/blogs/1.webp" className="rounded-xl" alt="US Visa Application Process for Indian Travelers: A Step-by-Step Guide" />
             </div>
 
             <p className="leading-8">Are you an Indian traveler dreaming of exploring the vibrant landscapes and diverse cultures of the United States? Navigating the US visa application process may seem like a daunting task, but fear not—we&apos;re here to demystify it for you. In this comprehensive guide, we&apos;ll walk you through each step, ensuring a smoother journey towards obtaining your US visa.</p>

@@ -12,7 +12,7 @@ export default function Testimonials() {
             <div className="bg-white shadow-gray-300 shadow-xl md:shadow-2xl p-8 rounded-2xl ring-2 ring-slate-100">
                 <div className="flex items-center gap-4 mb-6">
 
-                    <img src="/Testimonials/vinaymehta.avif" alt="Vinay Mehta" width="20%" className="rounded-full" />
+                    <img src="/Testimonials/vinaymehta.webp" alt="Vinay Mehta" width="20%" height="20%" className="rounded-full" />
 
                     <div className="gap-1 grid">
                         <h1 className="font-semibold text-[#141B52] text-base md:text-xl">Vinay Mehta</h1>
@@ -29,7 +29,7 @@ export default function Testimonials() {
             <div className="bg-white shadow-gray-300 shadow-xl md:shadow-2xl md:mx-8 my-5 md:my-0 p-8 rounded-2xl ring-2 ring-slate-100">
                 <div className="flex items-center gap-4 mb-6">
 
-                    <img src="/Testimonials/akashmulani.avif" alt="Akash Mulani" width="20%" className="rounded-full" />
+                    <img src="/Testimonials/akashmulani.webp" alt="Akash Mulani" width="20%" height="20%" className="rounded-full" />
 
                     <div className="gap-1 grid">
                         <h1 className="font-semibold text-[#141B52] text-base md:text-xl">Akash Mulani</h1>
@@ -44,7 +44,7 @@ export default function Testimonials() {
             <div className="bg-white shadow-gray-300 shadow-xl md:shadow-2xl p-8 rounded-2xl ring-2 ring-slate-100">
                 <div className="flex items-center gap-4 mb-6">
 
-                    <img src="/Testimonials/ajeetsingh.avif" alt="Ajeet Singh" width="20%" className="rounded-full" />
+                    <img src="/Testimonials/ajeetsingh.webp" alt="Ajeet Singh" width="20%" height="20%" className="rounded-full" />
 
                     <div className="gap-1 grid">
                         <h1 className="font-semibold text-[#141B52] text-base md:text-xl">Ajeet Singh</h1>

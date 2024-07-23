@@ -3,7 +3,6 @@
 import React, { useState } from "react";
 import { useFormspark } from "@formspark/use-formspark";
 
-import { CgMenuRight } from "react-icons/cg";
 
 
 const FORMSPARK_FORM_ID = "1uzxj5WLu";
@@ -11,10 +10,13 @@ const FORMSPARK_FORM_ID = "1uzxj5WLu";
 
 export default function FormComponent() {
 
+
+
+    let [active_spinner, setActiveSpinner] = useState(false);
+
     const [submit, submitting] = useFormspark({
         formId: FORMSPARK_FORM_ID,
     });
-
 
 
     const [FirstName, setFirstName] = useState("");
@@ -25,8 +27,14 @@ export default function FormComponent() {
     const [TravelledBefore, setTravelledBefore] = useState("");
 
 
+
+
+
     const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
+
+        setActiveSpinner(!active_spinner)
+
         await submit({
             FirstName,
             LastName,
@@ -35,13 +43,18 @@ export default function FormComponent() {
             City,
             TravelledBefore,
         });
-        alert("Form submitted");
+        window.location.href = "/thank-you";
     };
 
 
 
 
-    return <div className="mx-auto px-4 md:w-[1000px] 2xl:w-[1300px] font-primary">
+
+
+
+
+
+    return <div className="mx-auto px-4 md:w-[1000px] 2xl:w-[1300px]">
 
 
 
@@ -69,9 +82,9 @@ export default function FormComponent() {
             <div className="block my-6 w-full">
                 <label htmlFor="Service" className="block w-full">Service interested in:*</label>
                 <select name="Service" value={Service} onChange={(e) => setService(e.target.value)} id="countries" className="block border-gray-300 px-4 py-2.5 border rounded-lg w-full h-12 text-gray-600 focus:outline-none" required>
-                    <option className="font-bold font-primary text-base" value="" disabled> - select - </option>
-                    <option className="font-bold font-primary text-base" value="male">Full Visa Application</option>
-                    <option className="font-bold font-primary text-base" value="female">Only Early Appointment</option>
+                    <option className="font-bold text-base" value="" disabled> - select - </option>
+                    <option className="font-bold text-base" value="male">Full Visa Application</option>
+                    <option className="font-bold text-base" value="female">Only Early Appointment</option>
                 </select>
             </div>
 
@@ -86,9 +99,9 @@ export default function FormComponent() {
             <div className="block my-6 w-full">
                 <label htmlFor="countries" className="block w-full">Have you ever travelled outside of India?*</label>
                 <select name="Travelled Before" value={TravelledBefore} onChange={(e) => setTravelledBefore(e.target.value)} id="countries" className="block border-gray-300 px-4 py-2.5 border rounded-lg w-full h-12 text-gray-600 focus:outline-none" required>
-                    <option className="font-bold font-primary text-base" value="" disabled>- select -</option>
-                    <option className="font-bold font-primary text-base" value="Yes">Yes</option>
-                    <option className="font-bold font-primary text-base" value="No">No</option>
+                    <option className="font-bold text-base" value="" disabled>- select -</option>
+                    <option className="font-bold text-base" value="Yes">Yes</option>
+                    <option className="font-bold text-base" value="No">No</option>
                 </select>
             </div>
 
@@ -96,13 +109,15 @@ export default function FormComponent() {
 
 
 
+            <button type="submit" disabled={submitting} className="flex justify-center items-center bg-[#EB560D] hover:bg-[#141B52] shadow shadow-orange-500 py-3 rounded-lg w-full font-semibold text-lg text-white transition duration-300">
+                <h1 className="pr-3">Submit </h1>
 
+                {active_spinner ? <div
+                    className="inline-block border-2 border-current border-r-transparent border-solid rounded-full w-6 h-6 animate-spin motion-reduce:animate-[spin_1.5s_linear_infinite] align-[-0.125em]"
+                    role="status">
+                </div> : <></>}
 
-
-            <button type="submit" disabled={submitting} className="bg-[#EB560D] hover:bg-[#141B52] shadow shadow-orange-500 py-3 rounded-lg w-full font-semibold text-lg text-white transition duration-300">
-                Submit
             </button>
-
 
 
 
@@ -111,3 +126,11 @@ export default function FormComponent() {
 
     </div>;
 }
+
+
+
+
+
+
+
+

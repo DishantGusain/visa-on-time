@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <section className="mx-auto mt-10 md:mt-20 px-4 pt-6 md:w-[1000px] 2xl:w-[1300px] font-primary">
+        <section className="mx-auto mt-10 md:mt-20 px-4 pt-6 md:w-[1000px] 2xl:w-[1300px]  ">
             <div className="md:flex justify-between items-start">
                 <div className="flex justify-center items-center my-10 md:my-0 text-center md:text-left">
                     <div className="space-y-2 text-sm">
@@ -57,9 +57,9 @@ export default function Footer() {
 
                 <div className="">
                     <div className="flex justify-center items-center">
-                        <img className="h-7" src="/Socials/instagram.avif" alt="Visa On Time Instagram" />
-                        <img className="mx-5 h-7" src="/Socials/facebook.avif" alt="Visa On Time Facebook" />
-                        <img className="h-7" src="/Socials/twitter.avif" alt="Visa On Time Twitter" />
+                        <img className="h-7 w-7" src="/Socials/instagram.avif" alt="Visa On Time Instagram" />
+                        <img className="mx-5 h-7 w-7" src="/Socials/facebook.avif" alt="Visa On Time Facebook" />
+                        <img className="h-7 w-7" src="/Socials/twitter.avif" alt="Visa On Time Twitter" />
                     </div>
 
                     <p className="py-4 text-xs">Copyright © 2023, VisaOnTime by Axon Consultancy</p>

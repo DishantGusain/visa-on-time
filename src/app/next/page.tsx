@@ -5,7 +5,7 @@ export default function next() {
 
 
 
-    return <div className="mx-auto px-4 md:w-[1000px] 2xl:w-[1300px] font-primary">
+    return <div className="mx-auto px-4 md:w-[1000px] 2xl:w-[1300px]  ">
 
 
         <div className="mt-10 mb-6 md:my-20">

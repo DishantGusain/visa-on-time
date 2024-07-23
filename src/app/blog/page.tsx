@@ -1,11 +1,10 @@
 
-import { CgMenuRight } from "react-icons/cg";
 export default function blog() {
 
 
 
 
-    return <div className="mx-auto px-4 md:w-[1000px] 2xl:w-[1300px] font-primary">
+    return <div className="mx-auto px-4 md:w-[1000px] 2xl:w-[1300px] ">
 
 
 
@@ -18,7 +17,8 @@ export default function blog() {
             <a href="/us-visa-application-process-for-indian-travelers-a-step-by-step-guide" className="">
                 <div className="relative md:flex items-center w-full">
                     <div className="md:w-2/12 ">
-                        <img className="rounded-3xl h-[180px] w-full object-cover" height="820px" src="/blogs/1.avif" />
+                        <img className="rounded-3xl h-[180px] w-full object-cover" alt="blog" src="/blogs/1.webp" />
+
                     </div>
 
 

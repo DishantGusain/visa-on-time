@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
+
+
+
 import "./globals.css";
 import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "USA Visa in just 45 Days! - Apply Today",
@@ -24,11 +27,16 @@ export const metadata: Metadata = {
       "Get US Visa in just 45 Days. The #1 Visa Agency, successfully assisting US Visa aspirants since 2020. Apply your US Visa today!",
     images: [
       {
-        url: "https://firebasestorage.googleapis.com/v0/b/dishant-portfolio-nextjs.appspot.com/o/VisaOnTime.webp?alt=media&token=35bf14f1-4c11-46d3-9d7c-7aa3b7731547",
+        url: "https://firebasestorage.googleapis.com/v0/b/dishant-portfolio-nextjs.appspot.com/o/VisaOnTime.webp?alt=media&token=8257b6a3-ca43-4ad7-9ee4-9a8f94d56240",
         alt: "USA Visa in just 45 Days!",
       },
     ],
   },
+
+
+
+
+
 
 };
 
@@ -43,7 +51,7 @@ export default function RootLayout({
 
 
 
-      <body className={inter.className}>
+      <body className={montserrat.className}>
         <Navbar />
         {children}
         <span
@@ -53,7 +61,7 @@ export default function RootLayout({
         >
           <link
             itemProp="url"
-            href="https://firebasestorage.googleapis.com/v0/b/dishant-portfolio-nextjs.appspot.com/o/VisaOnTime.webp?alt=media&token=35bf14f1-4c11-46d3-9d7c-7aa3b7731547"
+            href="https://firebasestorage.googleapis.com/v0/b/dishant-portfolio-nextjs.appspot.com/o/VisaOnTime.webp?alt=media&token=8257b6a3-ca43-4ad7-9ee4-9a8f94d56240"
           />
         </span>
 

@@ -9,7 +9,7 @@ import { IoCheckmarkCircle } from "react-icons/io5";
 export default function Home() {
   return (
 
-    <main className="mx-auto px-4 md:w-[1000px] 2xl:w-[1300px] font-primary">
+    <main className="mx-auto px-4 md:w-[1000px] 2xl:w-[1300px] ">
 
       <Hero />
 
