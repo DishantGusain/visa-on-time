@@ -8,7 +8,7 @@ export default function Hero() {
             <div className="lg:flex justify-between items-center text-center lg:text-left">
                 <div className="flex justify-start items-center lg:pt-0 lg:pb-0 lg:w-1/2">
                     <div className="space-y-5 lg:space-y-8 desktop:space-y-16 lg:w-[425px] desktop:w-[750px]">
-                        <h1 className="font-extrabold text-[#141B52] text-3xl lg:text-[39px] desktop:text-5xl desktop:leading-[66px] lg:leading-[46px] leading-[40px] ">
+                        <h1 className="font-extrabold text-[#141B52]  text-[32px] small:text-[35px] lg:text-[39px] desktop:text-5xl desktop:leading-[66px] lg:leading-[46px] small:leading-[42px] leading-[40px] ">
                             US Visitor Visa
                             appointment in
                             just 30 Days!
@@ -49,20 +49,20 @@ export default function Hero() {
                                 </div>
                             </div>
 
-                            <p className="px-0 md:px-8   font-semibold  text-sm lg:text-sm desktop:text-xl text-center ">
+                            <p className="px-0 md:px-8 -ml-4 mr-10 small:-ml-12 small:mr-12 md:mr-0 md:-ml-0  font-semibold  text-sm lg:text-sm desktop:text-xl text-center ">
                                 250+ Successful Visa Issuance
                                 and counting.
                             </p>
 
-                            <div className="col-span-2 mt-8 mb-2 lg:mt-0 lg:mb-0 place-self-center">
-                                <h2 className="font-extrabold text-[#141B52] text-2xl lg:text-3xl desktop:text-4xl">
+                            <div className="col-span-2 mt-6 mb-2 lg:mt-0 lg:mb-0 place-self-center">
+                                <h2 className="font-extrabold text-[#141B52] text-3xl lg:text-3xl desktop:text-4xl">
                                     ₹39,999/-
                                 </h2>
                                 <p className="text-base font-medium text-center">(all inclusive)</p>
                             </div>
                         </div>
 
-                        <div className="shadow shadow-orange-500 hover:shadow-[#141B52] rounded-lg font-semibold text-center text-lg desktop:text-2xl text-white group">
+                        <div className="shadow shadow-orange-500 hover:shadow-[#141B52] mx-2 md:mx-0 rounded-lg font-semibold text-center text-lg desktop:text-2xl text-white group">
                             <a href="/next" className="group-hover:bg-[#141B52] flex justify-center items-center bg-[#EB560D] py-3 rounded-lg transition duration-300">
                                 Apply US Visa
                                 <span className="ml-2 text-xl">

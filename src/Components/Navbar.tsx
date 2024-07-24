@@ -8,7 +8,7 @@ export default function Navbar() {
     let [open_nav, setOpenNav] = useState(false);
 
     return <div className="">
-        <div className="flex justify-between  items-center mx-auto pt-6  px-4  lg:w-[980px] 2xl:w-[1250px]  desktop:w-[1700px] font-bold md:text-lg  desktop:text-2xl lg:text-xl">
+        <div className="flex justify-between  items-center mx-auto pt-6  px-4  lg:w-[980px] 2xl:w-[1250px]  desktop:w-[1700px] font-semibold md:text-lg  desktop:text-2xl lg:text-xl">
             <div className="w-40 md:w-40 desktop:w-60"><a href="/" className=""> <img src="/logo.avif" alt="Visa On Time Logo" /></a></div>
 
             <div className="md:flex items-center space-x-10 md:space-x-12 hidden">

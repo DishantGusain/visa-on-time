@@ -15,10 +15,11 @@ const config: Config = {
       },
       colors: {
         textprimary: "#141B52",
-        textsecondary: "#EB560D",
+        textsecondary: "#FF0000",
+        redPrimary: "#FF0000",
       },
       screens: {
-        small: "450px",
+        small: "400px",
         desktopRare: "1400px",
 
         desktop: "2000px",
