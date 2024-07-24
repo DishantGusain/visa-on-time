@@ -1,19 +1,13 @@
 
-import { CgMenuRight } from "react-icons/cg";
 export default function termsConditions() {
 
 
+    return <div className="desktop:w-[1700px] mx-auto px-4 md:px-8 lg:px-4 lg:w-[1000px] 2xl:w-[1300px]">
 
+        <h1 className="my-10 lg:my-20 mb-6 font-semibold text-2xl text-center lg:text-3xl">Terms & Conditions</h1>
 
-    return <div className="mx-auto px-4 md:w-[1000px] 2xl:w-[1300px]">
-
-
-        <h1 className="my-10 md:my-20 mb-6 font-semibold text-2xl text-center md:text-3xl">Terms & Conditions</h1>
-
-        <div className="font-medium text-base md:text-lg">
-
+        <div className="font-medium text-base lg:text-lg">
             <p className="my-6">Last updated 26/12/2023</p>
-
 
             <p className="leading-9">AGREEMENT TO OUR TERMS
                 <br />
@@ -33,10 +27,7 @@ export default function termsConditions() {
                 We recommend that you print a copy of these Legal Terms for your records.
             </p>
 
-
-
             <p className="my-6 leading-9">
-
                 TABLE OF CONTENTS
                 <br />
                 1. OUR SERVICES
@@ -76,10 +67,7 @@ export default function termsConditions() {
                 18. MISCELLANEOUS
                 <br />
                 19. CONTACT US
-
             </p>
-
-
 
             <p className="my-6 leading-9">
                 1. OUR SERVICES
@@ -87,9 +75,7 @@ export default function termsConditions() {
                 The information provided when using the Services is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation or which would subject us to any registration requirement within such jurisdiction or country. Accordingly, those persons who choose to access the Services from other locations do so on their own initiative and are solely responsible for compliance with local laws, if and to the extent local laws are applicable.
             </p>
 
-
             <p className="my-6 leading-9">
-
                 2. INTELLECTUAL PROPERTY RIGHTS
                 <br />
                 Our intellectual property
@@ -99,14 +85,10 @@ export default function termsConditions() {
                 Our Content and Marks are protected by copyright and trademark laws (and various other intellectual property rights and unfair competition laws) and treaties in the United States and around the world.
                 <br />
                 The Content and Marks are provided in or through the Services &quot;AS IS&quot; for your personal, non-commercial use or internal business purpose only.
-
             </p>
 
-
             <p className="my-6 leading-9">
-
                 Your use of our Services
-
                 <br />
                 Subject to your compliance with these Legal Terms, including the &quot;PROHIBITED ACTIVITIES&quot; section below, we grant you a non-exclusive, non-transferable, revocable license to:
                 <br />
@@ -118,27 +100,27 @@ export default function termsConditions() {
             </p>
 
             <p className="my-6 leading-9">
-
                 If you wish to make any use of the Services, Content, or Marks other than as set out in this section or elsewhere in our Legal Terms, please address your request to: hello@visaontime.co. If we ever grant you the permission to post, reproduce, or publicly display any part of our Services or Content, you must identify us as the owners or licensors of the Services, Content, or Marks and ensure that any copyright or proprietary notice appears or is visible on posting, reproducing, or displaying our Content.
-
             </p>
 
             <p className="my-6 leading-9">
                 We reserve all rights not expressly granted to you in and to the Services, Content, and Marks.
                 Any breach of these Intellectual Property Rights will constitute a material breach of our Legal Terms and your right to use our Services will terminate immediately.
-
             </p>
+
             <p className="my-6 leading-9">
                 Your submissions
                 <br />
                 Please review this section and the &quot;PROHIBITED ACTIVITIES&quot; section carefully prior to using our Services to understand the (a) rights you give us and (b) obligations you have when you post or upload any content through the Services.
             </p>
+
             <p className="my-6 leading-9">
                 Submissions: By directly sending us any question, comment, suggestion, idea, feedback, or other information about the Services (&quot;Submissions&quot;), you agree to assign to us all intellectual property rights in such Submission. You agree that we shall own this Submission and be entitled to its unrestricted use and dissemination for any lawful purpose, commercial or otherwise, without acknowledgment or compensation to you.
                 <br />
                 You are responsible for what you post or upload: By sending us Submissions through any part of the Services you:
                 confirm that you have read and agree with our &quot;PROHIBITED ACTIVITIES&quot; and will not post, send, publish, upload, or transmit through the Services any Submission that is illegal, harassing, hateful, harmful, defamatory, obscene, bullying, abusive, discriminatory, threatening to any person or group, sexually explicit, false, inaccurate, deceitful, or misleading;
             </p>
+
             <p className="my-6 leading-9">
                 to the extent permissible by applicable law, waive any and all moral rights to any such Submission;
                 <br />
@@ -146,24 +128,27 @@ export default function termsConditions() {
                 <br />
                 You are solely responsible for your Submissions and you expressly agree to reimburse us for any and all losses that we may suffer because of your breach of (a) this section, (b) any third party’s intellectual property rights, or (c) applicable law.
             </p>
+
             <p className="my-6 leading-9">
                 3. USER REPRESENTATIONS
                 <br />
                 By using the Services, you represent and warrant that: (1) you have the legal capacity and you agree to comply with these Legal Terms; (2) you are not a minor in the jurisdiction in which you reside; (3) you will not access the Services through automated or non-human means, whether through a bot, script or otherwise; (4) you will not use the Services for any illegal or unauthorized purpose; and (5) your use of the Services will not violate any applicable law or regulation.
             </p>
+
             <p className="my-6 leading-9">
                 If you provide any information that is untrue, inaccurate, not current, or incomplete, we have the right to suspend or terminate your account and refuse any and all current or future use of the Services (or any portion thereof).
             </p>
+
             <p className="my-6 leading-9">
                 4. PROHIBITED ACTIVITIES
                 <br />
                 You may not access or use the Services for any purpose other than that for which we make the Services available. The Services may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us.
             </p>
+
             <p className="my-6 leading-9">
                 As a user of the Services, you agree not to:
                 <br />
                 Systematically retrieve data or other content from the Services to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us.
-
                 <br />
                 Trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords.
                 <br />
@@ -204,30 +189,22 @@ export default function termsConditions() {
                 Use a buying agent or purchasing agent to make purchases on the Services.
                 <br />
                 Make any unauthorized use of the Services, including collecting usernames and/or email addresses of users by electronic or other means for the purpose of sending unsolicited email, or creating user accounts by automated means or under false pretenses.
-
                 <br />
-
                 Use the Services as part of any effort to compete with us or otherwise use the Services and/or the Content for any revenue-generating endeavor or commercial enterprise.
-
             </p>
 
             <p className="my-6 leading-9">
                 5. USER GENERATED CONTRIBUTIONS
-
                 <br />
                 You and Services agree that we may access, store, process, and use any information and personal data that you provide and your choices (including settings).
-
                 <br />
                 By submitting suggestions or other feedback regarding the Services, you agree that we can use and share such feedback for any purpose without compensation to you.
-
                 <br />
-
                 We do not assert any ownership over your Contributions. You retain full ownership of all of your Contributions and any intellectual property rights or other proprietary rights associated with your Contributions. We are not liable for any statements or representations in your Contributions provided by you in any area on the Services. You are solely responsible for your Contributions to the Services and you expressly agree to exonerate us from any and all responsibility and to refrain from any legal action against us regarding your Contributions.
             </p>
 
             <p className="my-6 leading-9">
                 7. SERVICES MANAGEMENT
-
                 <br />
                 We reserve the right, but not the obligation, to: (1) monitor the Services for violations of these Legal Terms; (2) take appropriate legal action against anyone who, in our sole discretion, violates the law or these Legal Terms, including without limitation, reporting such user to law enforcement authorities; (3) in our sole discretion and without limitation, refuse, restrict access to, limit the availability of, or disable (to the extent technologically feasible) any of your Contributions or any portion thereof; (4) in our sole discretion and without limitation, notice, or liability, to remove from the Services or otherwise disable all files and content that are excessive in size or are in any way burdensome to our systems; and (5) otherwise manage the Services in a manner designed to protect our rights and property and to facilitate the proper functioning of the Services.
             </p>
@@ -239,18 +216,20 @@ export default function termsConditions() {
                 <br />
                 If we terminate or suspend your account for any reason, you are prohibited from registering and creating a new account under your name, a fake or borrowed name, or the name of any third party, even if you may be acting on behalf of the third party. In addition to terminating or suspending your account, we reserve the right to take appropriate legal action, including without limitation pursuing civil, criminal, and injunctive redress.
             </p>
+
             <p className="my-6 leading-9">
                 9. MODIFICATIONS AND INTERRUPTIONS
                 <br />
                 We reserve the right to change, modify, or remove the contents of the Services at any time or for any reason at our sole discretion without notice. However, we have no obligation to update any information on our Services. We will not be liable to you or any third party for any modification, price change, suspension, or discontinuance of the Services.       <br />
                 We cannot guarantee the Services will be available at all times. We may experience hardware, software, or other problems or need to perform maintenance related to the Services, resulting in interruptions, delays, or errors. We reserve the right to change, revise, update, suspend, discontinue, or otherwise modify the Services at any time or for any reason without notice to you. You agree that we have no liability whatsoever for any loss, damage, or inconvenience caused by your inability to access or use the Services during any downtime or discontinuance of the Services. Nothing in these Legal Terms will be construed to obligate us to maintain and support the Services or to supply any corrections, updates, or releases in connection therewith.
             </p>
+
             <p className="my-6 leading-9">
                 10. GOVERNING LAW
                 <br />
                 These Legal Terms shall be governed by and defined following the laws of Ahmedabad. Gujarat, and yourself irrevocably consent that the courts of India shall have exclusive jurisdiction to resolve any dispute which may arise in connection with these Legal Terms.
-
             </p>
+
             <p className="my-6 leading-9">
                 11. DISPUTE RESOLUTION
                 <br />
@@ -276,7 +255,6 @@ export default function termsConditions() {
                 <br />
                 There may be information on the Services that contains typographical errors, inaccuracies, or omissions, including descriptions, pricing, availability, and various other information. We reserve the right to correct any errors, inaccuracies, or omissions and to change or update the information on the Services at any time, without prior notice.
             </p>
-
 
             <p className="my-6 leading-9">
                 13. DISCLAIMER
@@ -307,27 +285,26 @@ export default function termsConditions() {
                 <br />
                 We will maintain certain data that you transmit to the Services for the purpose of managing the performance of the Services, as well as data relating to your use of the Services. Although we perform regular routine backups of data, you are solely responsible for all data that you transmit or that relates to any activity you have undertaken using the Services. You agree that we shall have no liability to you for any loss or corruption of any such data, and you hereby waive any right of action against us arising from any such loss or corruption of such data.
             </p>
+
             <p className="my-6 leading-9">
                 17. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES
                 <br />
                 Visiting the Services, sending us emails, and completing online forms constitute electronic communications. You consent to receive electronic communications, and you agree that all agreements, notices, disclosures, and other communications we provide to you electronically, via email and on the Services, satisfy any legal requirement that such communication be in writing. YOU HEREBY AGREE TO THE USE OF ELECTRONIC SIGNATURES, CONTRACTS, ORDERS, AND OTHER RECORDS, AND TO ELECTRONIC DELIVERY OF NOTICES, POLICIES, AND RECORDS OF TRANSACTIONS INITIATED OR COMPLETED BY US OR VIA THE SERVICES. You hereby waive any rights or requirements under any statutes, regulations, rules, ordinances, or other laws in any jurisdiction which require an original signature or delivery or retention of non-electronic records, or to payments or the granting of credits by any means other than electronic means.
             </p>
+
             <p className="my-6 leading-9">
                 18. MISCELLANEOUS
                 <br />
                 These Legal Terms and any policies or operating rules posted by us on the Services or in respect to the Services constitute the entire agreement and understanding between you and us. Our failure to exercise or enforce any right or provision of these Legal Terms shall not operate as a waiver of such right or provision. These Legal Terms operate to the fullest extent permissible by law. We may assign any or all of our rights and obligations to others at any time. We shall not be responsible or liable for any loss, damage, delay, or failure to act caused by any cause beyond our reasonable control. If any provision or part of a provision of these Legal Terms is determined to be unlawful, void, or unenforceable, that provision or part of the provision is deemed severable from these Legal Terms and does not affect the validity and enforceability of any remaining provisions. There is no joint venture, partnership, employment or agency relationship created between you and us as a result of these Legal Terms or use of the Services. You agree that these Legal Terms will not be construed against us by virtue of having drafted them. You hereby waive any and all defenses you may have based on the electronic form of these Legal Terms and the lack of signing by the parties hereto to execute these Legal Terms.
             </p>
+
             <p className="my-6 leading-9">
                 19. CONTACT US
                 <br />
                 In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us at: hello@visaontime.co
             </p>
 
-
-
-
         </div>
-
 
 
     </div>;

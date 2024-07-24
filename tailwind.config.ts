@@ -17,6 +17,12 @@ const config: Config = {
         textprimary: "#141B52",
         textsecondary: "#EB560D",
       },
+      screens: {
+        small: "450px",
+        desktopRare: "1400px",
+
+        desktop: "2000px",
+      },
     },
   },
   plugins: [],

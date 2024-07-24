@@ -1,16 +1,12 @@
-
-import { CgMenuRight } from "react-icons/cg";
 export default function BlogPage() {
-    return <div className="mx-auto px-4 md:w-[1000px] 2xl:w-[1300px]">
+    return <div className="desktop:w-[1700px] mx-auto px-4 md:px-8 lg:px-4 lg:w-[980px] 2xl:w-[1250px]">
 
+        <div className="mt-20 lg:mt-20 mb-10 lg:mb-20 text-lg">
+            <h1 className="my-6 px-0 md:px-8 lg:px-0 font-bold text-3xl text-center lg:text-6xl">US Visa Application Process for Indian Travelers: A Step-by-Step Guide</h1>
 
+            <p className="my-6 px-0 md:px-8 lg:px-0 text-center leading-8">Feb 2,2024</p>
 
-        <div className="mt-20 md:mt-20 mb-10 md:mb-20 text-lg">
-            <h1 className="my-6 font-bold text-3xl text-center md:text-6xl">US Visa Application Process for Indian Travelers: A Step-by-Step Guide</h1>
-
-            <p className="my-6 text-center leading-8">Feb 2,2024</p>
-
-            <div className="flex justify-center items-center my-6">
+            <div className="flex justify-center items-center my-6 px-0 md:px-8 lg:px-0">
                 <img src="/blogs/1.webp" className="rounded-xl" alt="US Visa Application Process for Indian Travelers: A Step-by-Step Guide" />
             </div>
 
@@ -41,26 +37,18 @@ export default function BlogPage() {
             <p className="leading-8">Embarking on your journey to the United States is an exciting endeavor, and understanding the visa application process is the first step towards making it a reality. Follow our step-by-step guide, and you&apos;ll be well-prepared to navigate the intricacies of obtaining your US visa.</p>
 
             <p className="mt-3 leading-8">Remember, each applicant&apos;s situation is unique, so consult with the official guidelines and seek professional advice if needed. Safe travels!</p>
-
         </div>
 
-
-
-
-
-        <div className="md:flex justify-center items-center">
+        <div className="lg:flex justify-center items-center">
             <h1 className="font-bold text-3xl text-center">
-
                 Get your <span className="text-textsecondary"> US Travel Visa</span> in just 45 Days!
             </h1>
-            <div className="flex justify-center items-center">
-            <a href="/" className="flex justify-center items-center bg-[#EB560D] shadow shadow-orange-500 ml-4 py-3 rounded-lg w-[250px] font-semibold text-center text-lg text-white">
-                Apply Now
-            </a>
-
+            <div className="flex justify-center items-center my-4 lg:my-0">
+                <a href="/" className="flex justify-center items-center bg-[#EB560D] shadow shadow-orange-500 ml-4 py-3 rounded-lg w-[250px] font-semibold text-center text-lg text-white">
+                    Apply Now
+                </a>
             </div>
         </div>
-
 
 
     </div>;
