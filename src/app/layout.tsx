@@ -42,14 +42,14 @@ export default function RootLayout({
           {` window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-KBF5MQXMJ1');`}
+  gtag('config', 'G-4YQ2N5SVJT');`}
         </Script>
       </head>
 
       <body className={montserrat.className}>
         <Navbar />
 
-        <GoogleTagManager gtmId="GTM-M5GRJ4HN" />
+        <GoogleTagManager gtmId="GTM-TMQHB8Q4" />
 
         {children}
         <span
