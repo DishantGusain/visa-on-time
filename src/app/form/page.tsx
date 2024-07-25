@@ -43,35 +43,35 @@ export default function FormComponent() {
             <div className="relative flex justify-between my-6 w-full">
                 <div className="relative w-[49%]">
                     <label htmlFor="First Name" className="block w-full">First Name*</label>
-                    <input type="text" name="Name" value={FirstName} onChange={(e) => setFirstName(e.target.value)} id="default-search" className="block border-gray-300 bg-transparent shadow-xs px-4 py-2 border rounded-lg w-full font-semibold text-gray-900 placeholder-gray-400 focus:outline-none" placeholder="Ayush" required />
+                    <input type="text" name="Name" value={FirstName} onChange={(e) => setFirstName(e.target.value)} id="default-search" className="block border-gray-300 focus:border-2 bg-gray-100 shadow-xs px-4 py-2 border focus:border-blue-400 rounded-lg w-full font-semibold text-gray-900 transition duration-400 placeholder-gray-400 focus:outline-none" placeholder="Ayush" required />
                 </div>
                 <div className="relative w-[49%]">
                     <label htmlFor="Last Name" className="block w-full">Last Name*</label>
-                    <input name="Last Name" value={LastName} onChange={(e) => setLastName(e.target.value)} type="text" id="default-search" className="block border-gray-300 bg-transparent shadow-xs px-4 py-2 border rounded-lg w-full font-semibold text-gray-900 placeholder-gray-400 focus:outline-none" placeholder="Gupta" required />
+                    <input name="Last Name" value={LastName} onChange={(e) => setLastName(e.target.value)} type="text" id="default-search" className="block border-gray-300 focus:border-2 bg-gray-100 shadow-xs px-4 py-2 border focus:border-blue-400 rounded-lg w-full font-semibold text-gray-900 transition duration-400 placeholder-gray-400 focus:outline-none" placeholder="Gupta" required />
                 </div>
             </div>
             <div className="relative my-6">
                 <label htmlFor="MobileNumber" className="block w-full">Mobile Number*</label>
-                <input type="number" name="MobileNumber" value={MobileNumber} onChange={(e) => setMobileNumber(e.target.value)} id="default-search" className="block border-gray-300 bg-transparent shadow-xs px-4 py-2 border rounded-lg w-full font-semibold text-gray-900 placeholder-gray-400 focus:outline-none" placeholder="92585XXXXX" required />
+                <input type="number" name="MobileNumber" value={MobileNumber} onChange={(e) => setMobileNumber(e.target.value)} id="default-search" className="block border-gray-300 focus:border-2 bg-gray-100 shadow-xs px-4 py-2 border focus:border-blue-400 rounded-lg w-full font-semibold text-gray-900 transition duration-400 placeholder-gray-400 focus:outline-none" placeholder="92585XXXXX" required />
             </div>
             <div className="block my-6 w-full">
                 <label htmlFor="Service" className="block w-full">Service interested in:*</label>
-                <select name="Service" value={Service} onChange={(e) => setService(e.target.value)} id="countries" className="block border-gray-300 px-4 py-2.5 border rounded-lg w-full h-12 text-gray-600 focus:outline-none" required>
-                    <option className="font-bold text-base" value="" disabled> - select - </option>
-                    <option className="font-bold text-base" value="male">Full Visa Application</option>
-                    <option className="font-bold text-base" value="female">Only Early Appointment</option>
+                <select name="Service" value={Service} onChange={(e) => setService(e.target.value)} id="countries" className="block border-gray-300 focus:border-2 bg-gray-100 shadow-xs px-4 py-2 border focus:border-blue-400 rounded-lg w-full font-semibold text-gray-900 transition duration-400 placeholder-gray-400 focus:outline-none" required>
+                    <option className="font-semibold text-base" value="" disabled> - select - </option>
+                    <option className="font-semibold text-base" value="male">Full Visa Application</option>
+                    <option className="font-semibold text-base" value="female">Only Early Appointment</option>
                 </select>
             </div>
             <div className="relative my-6">
                 <label htmlFor="City" className="block w-full">City*</label>
-                <input name="City" value={City} onChange={(e) => setCity(e.target.value)} type="text" id="default-search" className="block border-gray-300 bg-transparent shadow-xs px-4 py-2 border rounded-lg w-full font-semibold text-gray-900 placeholder-gray-400 focus:outline-none" placeholder="New Delhi" required />
+                <input name="City" value={City} onChange={(e) => setCity(e.target.value)} type="text" id="default-search" className="block border-gray-300 focus:border-2 bg-gray-100 shadow-xs px-4 py-2 border focus:border-blue-400 rounded-lg w-full font-semibold text-gray-900 transition duration-400 placeholder-gray-400 focus:outline-none" placeholder="New Delhi" required />
             </div>
             <div className="block my-6 w-full">
                 <label htmlFor="countries" className="block w-full">Have you ever travelled outside of India?*</label>
-                <select name="Travelled Before" value={TravelledBefore} onChange={(e) => setTravelledBefore(e.target.value)} id="countries" className="block border-gray-300 px-4 py-2.5 border rounded-lg w-full h-12 text-gray-600 focus:outline-none" required>
-                    <option className="font-bold text-base" value="" disabled>- select -</option>
-                    <option className="font-bold text-base" value="Yes">Yes</option>
-                    <option className="font-bold text-base" value="No">No</option>
+                <select name="Travelled Before" value={TravelledBefore} onChange={(e) => setTravelledBefore(e.target.value)} id="countries" className="block border-gray-300 focus:border-2 bg-gray-100 shadow-xs px-4 py-2 border focus:border-blue-400 rounded-lg w-full font-semibold text-gray-900 transition duration-400 placeholder-gray-400 focus:outline-none" required>
+                    <option className="font-semibold text-base" value="" disabled>- select -</option>
+                    <option className="font-semibold text-base" value="Yes">Yes</option>
+                    <option className="font-semibold text-base" value="No">No</option>
                 </select>
             </div>
 

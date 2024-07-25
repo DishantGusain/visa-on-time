@@ -29,19 +29,19 @@ export default function Navbar() {
         {open_nav === true ? (
             <div className="  md:hidden pt-6 w-full">
                 <div className="my-4 ml-6 ">
-                    <a onClick={() => setOpenNav(!open_nav)} className="pb-1 font-medium text-lg hover:text-[#0088ff] transition duration-300 cursor-pointer" href="/#AboutUs" >
+                    <a onClick={() => setOpenNav(!open_nav)} className="pb-1 font-semibold text-lg hover:text-[#0088ff] transition duration-300 cursor-pointer" href="/#AboutUs" >
                         About Us
                     </a>
                 </div>
 
                 <div className="my-4  ml-6 ">
-                    <a onClick={() => setOpenNav(!open_nav)} className="pb-1 font-medium text-lg hover:text-[#0088ff] transition duration-300 cursor-pointer" href="/#Procedure" >
+                    <a onClick={() => setOpenNav(!open_nav)} className="pb-1 font-semibold text-lg hover:text-[#0088ff] transition duration-300 cursor-pointer" href="/#Procedure" >
                         Procedure
                     </a>
                 </div>
 
                 <div className="my-4  ml-6 ">
-                    <a onClick={() => setOpenNav(!open_nav)} href="/#FAQ" className="pb-1  font-medium text-lg hover:text-[#0088ff] transition duration-300 cursor-pointer" >
+                    <a onClick={() => setOpenNav(!open_nav)} href="/#FAQ" className="pb-1  font-semibold text-lg hover:text-[#0088ff] transition duration-300 cursor-pointer" >
                         FAQs
                     </a>
                 </div>

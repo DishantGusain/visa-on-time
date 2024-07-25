@@ -4,6 +4,7 @@ import Script from "next/script";
 import "./globals.css";
 import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
+import { GoogleTagManager } from '@next/third-parties/google'
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -47,6 +48,9 @@ export default function RootLayout({
 
       <body className={montserrat.className}>
         <Navbar />
+
+        <GoogleTagManager gtmId="GTM-M5GRJ4HN" />
+
         {children}
         <span
           itemProp="thumbnail"

@@ -19,7 +19,7 @@ const config: Config = {
         redPrimary: "#FF0000",
       },
       screens: {
-        small: "400px",
+        small: "420px",
         desktopRare: "1400px",
 
         desktop: "2000px",
