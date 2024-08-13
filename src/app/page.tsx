@@ -59,39 +59,58 @@ export default function Home() {
             <div className="lg:flex justify-between items-start hidden text-sm">
                <div className="my-4 lg:my-0 lg:pr-6 lg:w-1/3">
                   <h2 className="flex items-start my-1 font-semibold text-base md:text-lg desktop:text-2xl">
-                     {" "}
                      <span className="pt-1 pr-1 text-green-500">
                         <IoCheckmarkCircle />
-                     </span>{" "}
+                     </span>
                      Details and documents gathering
                   </h2>
                </div>
                <div className="my-4 lg:my-0 lg:w-1/3">
                   <h2 className="flex items-start my-1 font-semibold text-base md:text-lg desktop:text-2xl">
-                     {" "}
                      <span className="pt-1 pr-1 text-green-500">
                         <IoCheckmarkCircle />
-                     </span>{" "}
+                     </span>
                      DS 160 Form Filling & US Visa Fee payment
                   </h2>
                </div>
                <div className="my-4 lg:my-0 lg:pl-6 lg:w-1/3">
                   <h2 className="flex items-start my-1 font-semibold text-base md:text-lg desktop:text-2xl">
-                     {" "}
                      <span className="pt-1 pr-1 text-green-500">
                         <IoCheckmarkCircle />
-                     </span>{" "}
+                     </span>
                      Booking the earliest appointment slot
                   </h2>
                </div>
             </div>
+
+            <div className="lg:flex justify-between items-start hidden text-sm">
+               <div className="my-4 lg:my-0 lg:pr-6 lg:w-1/3">
+                  <p className="font-medium text-sm md:text-base desktop:text-xl">
+                     Our experienced executive will gather all your details and
+                     documents required to apply for US Visa.
+                  </p>
+               </div>
+               <div className="my-4 lg:my-0 lg:w-1/3">
+                  <p className="font-medium text-sm md:text-base desktop:text-xl">
+                     Our executive will fill the DS 160 form for US Visa
+                     application on your behalf.
+                  </p>
+               </div>
+               <div className="my-4 lg:my-0 lg:pl-6 lg:w-1/3">
+                  <p className="font-medium text-sm md:text-base desktop:text-xl">
+                     Our team of Visa Experts sit through out the day to spot
+                     any new or cancelled vacancies and provide you with the
+                     earliest appointment schedule
+                  </p>
+               </div>
+            </div>
+
             <div className="block lg:hidden text-sm">
                <div className="my-4 lg:my-0 lg:pr-6 lg:w-1/3">
                   <h2 className="flex items-start my-2 font-semibold text-base md:text-lg desktop:text-2xl">
-                     {" "}
                      <span className="pt-1 pr-1 text-green-500">
                         <IoCheckmarkCircle />
-                     </span>{" "}
+                     </span>
                      Details and documents gathering
                   </h2>
                   <p className="font-medium text-sm md:text-base desktop:text-xl">
@@ -101,23 +120,21 @@ export default function Home() {
                </div>
                <div className="my-4 lg:my-0 lg:w-1/3">
                   <h2 className="flex items-start my-2 font-semibold text-base md:text-lg desktop:text-2xl">
-                     {" "}
                      <span className="pt-1 pr-1 text-green-500">
                         <IoCheckmarkCircle />
-                     </span>{" "}
+                     </span>
                      DS 160 Form Filling & US Visa Fee payment
                   </h2>
                   <p className="font-medium text-sm md:text-base desktop:text-xl">
                      Our executive will fill the DS 160 form for US Visa
-                     application on your behalf.{" "}
+                     application on your behalf.
                   </p>
                </div>
                <div className="my-4 lg:my-0 lg:pl-6 lg:w-1/3">
                   <h2 className="flex items-start my-2 font-semibold text-base md:text-lg desktop:text-2xl">
-                     {" "}
                      <span className="pt-1 pr-1 text-green-500">
                         <IoCheckmarkCircle />
-                     </span>{" "}
+                     </span>
                      Booking the earliest appointment slot
                   </h2>
                   <p className="font-medium text-sm md:text-base desktop:text-xl">
