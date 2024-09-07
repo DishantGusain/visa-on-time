@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { useFormspark } from "@formspark/use-formspark";
 
 const FORMSPARK_FORM_ID = "ta0rBdRwE";
+//const FORMSPARK_FORM_ID = "1uzxj5WLu";
 
 export default function FormComponent() {
    let [active_spinner, setActiveSpinner] = useState(false);
@@ -46,7 +47,11 @@ export default function FormComponent() {
          TravelledBefore,
          ...utmParams,
       });
-      window.location.href = "/thank-you";
+      if (TravelledBefore === "Yes") {
+         window.location.href = "/thank-you";
+      } else if (TravelledBefore === "No") {
+         window.location.href = "/form-submitted";
+      }
    };
 
    return (
@@ -64,17 +69,17 @@ export default function FormComponent() {
             <div className="relative flex justify-between my-6 w-full">
                <div className="relative w-[49%]">
                   <label
-                     htmlFor="First Name"
+                     htmlFor="FirstName"
                      className="block w-full"
                   >
                      First Name*
                   </label>
                   <input
                      type="text"
-                     name="Name"
+                     name="FirstName"
                      value={FirstName}
                      onChange={(e) => setFirstName(e.target.value)}
-                     id="default-search"
+                     id="FirstName"
                      className="block border-gray-300 focus:border-2 bg-gray-100 shadow-xs px-4 py-2 border focus:border-blue-400 rounded-lg w-full font-semibold text-gray-900 transition duration-400 placeholder-gray-400 focus:outline-none"
                      placeholder="Ayush"
                      required
@@ -82,17 +87,17 @@ export default function FormComponent() {
                </div>
                <div className="relative w-[49%]">
                   <label
-                     htmlFor="Last Name"
+                     htmlFor="LastName"
                      className="block w-full"
                   >
                      Last Name*
                   </label>
                   <input
-                     name="Last Name"
+                     name="LastName"
                      value={LastName}
                      onChange={(e) => setLastName(e.target.value)}
                      type="text"
-                     id="default-search"
+                     id="LastName"
                      className="block border-gray-300 focus:border-2 bg-gray-100 shadow-xs px-4 py-2 border focus:border-blue-400 rounded-lg w-full font-semibold text-gray-900 transition duration-400 placeholder-gray-400 focus:outline-none"
                      placeholder="Gupta"
                      required
@@ -111,7 +116,7 @@ export default function FormComponent() {
                   name="MobileNumber"
                   value={MobileNumber}
                   onChange={(e) => setMobileNumber(e.target.value)}
-                  id="default-search"
+                  id="MobileNumber"
                   className="block border-gray-300 focus:border-2 bg-gray-100 shadow-xs px-4 py-2 border focus:border-blue-400 rounded-lg w-full font-semibold text-gray-900 transition duration-400 placeholder-gray-400 focus:outline-none"
                   placeholder="92585XXXXX"
                   required
@@ -128,7 +133,7 @@ export default function FormComponent() {
                   name="Service"
                   value={Service}
                   onChange={(e) => setService(e.target.value)}
-                  id="countries"
+                  id="Service"
                   className="block border-gray-300 focus:border-2 bg-gray-100 shadow-xs px-4 h-10  border focus:border-blue-400 rounded-lg w-full font-semibold text-gray-900 transition duration-400 placeholder-gray-400 focus:outline-none"
                   required
                >
@@ -166,7 +171,7 @@ export default function FormComponent() {
                   value={City}
                   onChange={(e) => setCity(e.target.value)}
                   type="text"
-                  id="default-search"
+                  id="City"
                   className="block border-gray-300 focus:border-2 bg-gray-100 shadow-xs px-4 py-2 border focus:border-blue-400 rounded-lg w-full font-semibold text-gray-900 transition duration-400 placeholder-gray-400 focus:outline-none"
                   placeholder="New Delhi"
                   required
@@ -174,7 +179,7 @@ export default function FormComponent() {
             </div>
             <div className="block my-6 w-full">
                <label
-                  htmlFor="countries"
+                  htmlFor="TravelledBefore"
                   className="block w-full"
                >
                   Have you ever travelled outside of India?*
@@ -183,7 +188,7 @@ export default function FormComponent() {
                   name="Travelled Before"
                   value={TravelledBefore}
                   onChange={(e) => setTravelledBefore(e.target.value)}
-                  id="countries"
+                  id="TravelledBefore"
                   className="block border-gray-300 focus:border-2 bg-gray-100 shadow-xs px-4  h-10  border focus:border-blue-400 rounded-lg w-full font-semibold text-gray-900 transition duration-400 placeholder-gray-400 focus:outline-none"
                   required
                >
