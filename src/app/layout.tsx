@@ -35,36 +35,43 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <head>
-        {/* <Script async src="https://www.googletagmanager.com/gtag/js?id=G-CNZL3ZYY3E"></Script> */}
-        <Script id="google-analytics" strategy="afterInteractive">
-          {` window.dataLayer = window.dataLayer || [];
+     <html lang="en">
+        <head>
+           {/* <Script async src="https://www.googletagmanager.com/gtag/js?id=G-CNZL3ZYY3E"></Script> */}
+
+           <meta
+              name="robots"
+              content="noindex, nofollow"
+           />
+           <Script
+              id="google-analytics"
+              strategy="afterInteractive"
+           >
+              {` window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-4YQ2N5SVJT');`}
-        </Script>
-      </head>
+           </Script>
+        </head>
 
-      <body className={montserrat.className}>
-        <Navbar />
+        <body className={montserrat.className}>
+           <Navbar />
 
-        <GoogleTagManager gtmId="GTM-TMQHB8Q4" />
+           <GoogleTagManager gtmId="GTM-T674TVZN" />
 
-        {children}
-        <span
-          itemProp="thumbnail"
-          itemScope
-          itemType="http://schema.org/ImageObject"
-        >
-          <link
-            itemProp="url"
-            href="https://firebasestorage.googleapis.com/v0/b/dishant-portfolio-nextjs.appspot.com/o/VisaOnTime.webp?alt=media&token=8257b6a3-ca43-4ad7-9ee4-9a8f94d56240"
-          />
-        </span>
-        <Footer />
-      </body>
-
-    </html>
+           {children}
+           <span
+              itemProp="thumbnail"
+              itemScope
+              itemType="http://schema.org/ImageObject"
+           >
+              <link
+                 itemProp="url"
+                 href="https://firebasestorage.googleapis.com/v0/b/dishant-portfolio-nextjs.appspot.com/o/VisaOnTime.webp?alt=media&token=8257b6a3-ca43-4ad7-9ee4-9a8f94d56240"
+              />
+           </span>
+           <Footer />
+        </body>
+     </html>
   );
 }
