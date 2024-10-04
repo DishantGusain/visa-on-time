@@ -57,7 +57,7 @@ export default function RootLayout({
         <body className={montserrat.className}>
            <Navbar />
 
-           <GoogleTagManager gtmId="GTM-T674TVZN" />
+           <GoogleTagManager gtmId="GTM-TP2WQDLT" />
 
            {children}
            <span
